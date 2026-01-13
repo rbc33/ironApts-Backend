@@ -1,0 +1,25 @@
+{
+  "name": "proyect3",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ./app.ts",
+    "build": "tsc",
+    "start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "cloudinary": "^2.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.2",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.0.0"
+  }
+}
